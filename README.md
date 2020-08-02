@@ -29,7 +29,12 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 [homebrew](https://brew.sh/)
 
-安装软件, 建议最后安装, 安装列表见文件 `brew-casks`
+安装brew
+```
+/bin/bash ./brew_install
+```
+
+通过brew安装软件, 建议最后安装, 安装列表见文件 `brew-casks`
 
 ```
 $ ./brew.sh
